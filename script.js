@@ -1,1 +1,3 @@
-// Introduction to jQuery ...
+$(document).ready(function(){
+   alert("jQuery loaded") 
+});
