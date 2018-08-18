@@ -1,4 +1,4 @@
-/* Lesson3 
+/* Lesson3 - How to start running the jQuery
 $(document).ready(function(){
    alert("jQuery loaded") 
 });
@@ -6,10 +6,39 @@ $(document).ready(function(){
 
 // Explaining when you would know that jQuery is involved in a website as well as specific jQuery Statements ".css , .animate" 
 
-/* Lesson 5 
+/* Lesson 5- jQuery Filters
 $("h3").css({border:"3px solid blue"});
 
 $(".wrapper").css({border: "3px solid red"});
 
 $("#clients").css({border: "3px solid yellow"});
+*/
+
+/* Lesson 6 - jQuery Selectors */
+
+/*$("header nav li:first").css({border: "2px solid red"});
+$("header nav li:first").css({border: "2px solid red"}); */
+
+/*$("#contact ul:first-child").css({border: "2px solid red"});
+$("#contact ul:last-child").css({border: "2px solid red"});*/
+
+/*even
+$("header nav li:even").css({border:"2px solid red"});
+*/
+/*odd
+$("header nav li:odd").css({border: "2px solid blue"});
+*/
+/*not
+$("section:not('#contact')").css({border: "2px solid green"});
+*/
+
+/*
+$("#social-nav li:lt(3)").css({border:"2px solid blue"});
+*/
+
+/*
+$("img[alt]").css({border: "2px solid pink"});
+*/
+/*
+$("img[alt=quote]").css({border: "2px solid purple"});
 */
