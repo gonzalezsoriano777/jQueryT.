@@ -71,6 +71,22 @@ $("#social-nav").closest(".wrapper").css({border: "3px solid orange"});
 
 // Tutorial 8 - jQuery Chaining
 
+/*
 $("#contact-method").css({border: "2px solid red"})
 .next().css({border: "2px solid green"})
 .closest("section").css({border: "2px solid blue"});
+*/
+
+// Tutorial 9 - Adding Content using jQuery
+var tweet ="hello career devs";
+
+$("#tweets div p").append(tweet); // Starting the change with jQuery on Twitter
+                  .before //  whatever is defined will be before the actual content
+                  .after // whatever is defined will be after the content
+                  .html // Everything inside, " such as the p tag" would be replaced with what you want  it to be defined by
+                  .text // Prints the text you defined by the variable (Be specific!)
+// Adding and changing Content... Example, a Tweet on Twitter
+
+
+
+
