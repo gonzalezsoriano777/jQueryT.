@@ -48,7 +48,7 @@ $("img[alt=quote]").css({border: "2px solid purple"});
 $("#contact-methods").next().css({border: "3px solid red"});
 */
 
-/* prev *
+/* prev 
 $("#social-nav").prev().css({border: "3px solid red"});
 */
 
@@ -67,3 +67,10 @@ $("#contact .facebook").css({border: "3px solid purple"});
 /* closest 
 $("#social-nav").closest(".wrapper").css({border: "3px solid orange"});
 */
+
+
+// Tutorial 8 - jQuery Chaining
+
+$("#contact-method").css({border: "2px solid red"})
+.next().css({border: "2px solid green"})
+.closest("section").css({border: "2px solid blue"});
