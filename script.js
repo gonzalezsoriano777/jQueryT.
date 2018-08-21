@@ -93,13 +93,13 @@ $("#contact-method").css({border: "2px solid red"})
 
 
 
-var wrapper ="<div class='wrapper'>";
-var button =$(".button");
-var wrapped = true;
+//var wrapper ="<div class='wrapper'>";
+//var button =$(".button");
+//var wrapped = true;
 
-button[0].onclick = function() {
+//button[0].onclick = function() {
    
-   if(wrapped){
+  /* if(wrapped){
       $("section").unwrap();
       wrapped = false;
       button.text("wrap");
@@ -110,7 +110,7 @@ button[0].onclick = function() {
    }
    
 };
-
+*/
 
 
 /*
@@ -121,4 +121,18 @@ wrapAll() - wraps all elements combined with 1 single element
 
 
 */
+
+// Lesson 11 - Removing Content
+
+$(".button").remove();
+$("#contact img").remove();
+
+
+/*
+
+.empty() - empties the inner HTML of an Element
+.remove() - removes the element completely
+
+*/
+
 
