@@ -124,14 +124,29 @@ wrapAll() - wraps all elements combined with 1 single element
 
 // Lesson 11 - Removing Content
 
-$(".button").remove();
-$("#contact img").remove();
+//$(".button").remove();
+//$("#contact img").remove();
 
 
 /*
 
 .empty() - empties the inner HTML of an Element
 .remove() - removes the element completely
+
+*/
+
+// Tutorial 12 - Changing Attributes
+
+//console.log($("#contact img").attr("alt")) - Another way of calling or displaying it 
+
+//$("#contact img").removeAttr("alt");
+//$("#contact img").attr("alt", "location")
+
+/*
+
+.removeAttr() removes an attribute completely
+.attr() can read or set any attribute
+
 
 */
 
