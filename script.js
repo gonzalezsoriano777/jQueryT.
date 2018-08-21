@@ -78,15 +78,47 @@ $("#contact-method").css({border: "2px solid red"})
 */
 
 // Tutorial 9 - Adding Content using jQuery
-var tweet ="hello career devs";
 
-$("#tweets div p").append(tweet); // Starting the change with jQuery on Twitter
-                  .before //  whatever is defined will be before the actual content
-                  .after // whatever is defined will be after the content
-                  .html // Everything inside, " such as the p tag" would be replaced with what you want  it to be defined by
-                  .text // Prints the text you defined by the variable (Be specific!)
+//var tweet ="hello career devs";
+
+/* $("#tweets div p").append(tweet); // Starting the change with jQuery on Twitter
+                  .before   whatever is defined will be before the actual content
+                  .after  whatever is defined will be after the content
+                  .html  Everything inside, " such as the p tag" would be replaced with what you want  it to be defined by
+                  .text  Prints the text you defined by the variable (Be specific!)
+*/                  
 // Adding and changing Content... Example, a Tweet on Twitter
 
+// Lesson 10 - Wrap and Unwrap Elements
 
 
+
+var wrapper ="<div class='wrapper'>";
+var button =$(".button");
+var wrapped = true;
+
+button[0].onclick = function() {
+   
+   if(wrapped){
+      $("section").unwrap();
+      wrapped = false;
+      button.text("wrap");
+   } else{
+      $("section").wrapAll(wrapper);
+      wrapped = true;
+      button.text("Unwrap");
+   }
+   
+};
+
+
+
+/*
+
+wrap() - wraps all watched elements indivdually
+unwrap() - unwraps all matched elements
+wrapAll() - wraps all elements combined with 1 single element
+
+
+*/
 
