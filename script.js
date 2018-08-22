@@ -150,4 +150,24 @@ wrapAll() - wraps all elements combined with 1 single element
 
 */
 
+// Tutorial 13 - CSS with jQuery
 
+/*var myObject = {
+   "height": "40",
+   "speed": "100"
+};
+*/
+
+
+/*
+("#social-nav").css({
+   "top" : "-400px",
+   "left": "150px",
+   "opacity": "0.5",
+   "border-top": "4px solid red"
+});
+*/
+
+
+//$("#social-nav").css("top", "-200px");
+//$("#social-nav").css("top", "-200px").css("left", "100px"); // It can go as long as you want in one line
