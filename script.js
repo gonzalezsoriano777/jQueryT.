@@ -177,12 +177,13 @@ wrapAll() - wraps all elements combined with 1 single element
 //$("header .wrapper").removeClass("wrapper");
 //$("header > div").addClass("wrapper");
 
-var button = $("#lead-banner a");
+//var button = $("#lead-banner a");
 
-button[0].onclick = function() {
+/*button[0].onclick = function() {
   $("#points-of-sale").toggleClass("open");
   return false;
 };
+*/
 
 /*
 
@@ -190,5 +191,26 @@ removeClass() - remove a class from the method element(s)
 addClass() - adds a class to the matched element(s)
 toggleClass - toggles the class on and off on their matched elements(s)
 
+
+*/
+
+
+// Tutorial 15 - Binding & Unbinding Events
+
+var myLis = $("#points-of-sale li"); 
+
+myLis.on("click", function(){
+   
+   $(this).css({"background" : "pink"});
+   
+   myLis.off("click");   
+});
+
+
+
+/*
+
+on() - binds an event to matched elements(s)
+off() - unbinds event from matched elements(s)
 
 */
