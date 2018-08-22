@@ -171,3 +171,24 @@ wrapAll() - wraps all elements combined with 1 single element
 
 //$("#social-nav").css("top", "-200px");
 //$("#social-nav").css("top", "-200px").css("left", "100px"); // It can go as long as you want in one line
+
+// Tutorial 14 - Adding and Removing Classes
+
+//$("header .wrapper").removeClass("wrapper");
+//$("header > div").addClass("wrapper");
+
+var button = $("#lead-banner a");
+
+button[0].onclick = function() {
+  $("#points-of-sale").toggleClass("open");
+  return false;
+};
+
+/*
+
+removeClass() - remove a class from the method element(s)
+addClass() - adds a class to the matched element(s)
+toggleClass - toggles the class on and off on their matched elements(s)
+
+
+*/
