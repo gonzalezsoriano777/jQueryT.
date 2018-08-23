@@ -197,16 +197,33 @@ toggleClass - toggles the class on and off on their matched elements(s)
 
 // Tutorial 15 - Binding & Unbinding Events
 
-var myLis = $("#points-of-sale li"); 
+//var myLis = $("#points-of-sale li"); 
 
-myLis.on("click", function(){
+//myLis.on("click", function(){
    
-   $(this).css({"background" : "pink"});
+  // $(this).css({"background" : "pink"});
    
-   myLis.off("click");   
-});
+//   myLis.off("click");   
+//});
 
 
+
+/*
+
+on() - binds an event to matched elements(s)
+off() - unbinds event from matched elements(s)
+
+*/
+
+// Tutorial 16 - Event Helpers
+
+/* $("#lead-banner").on("click", function(){
+                  //you can use ".click"
+                  // or you can use dblclick (another way of saying ".on("click")"
+    alert("you clicked me");
+ });
+
+*/
 
 /*
 
