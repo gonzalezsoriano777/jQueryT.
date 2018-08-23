@@ -231,3 +231,29 @@ on() - binds an event to matched elements(s)
 off() - unbinds event from matched elements(s)
 
 */
+
+// Tutorial 17 - Document Ready vs Window Load
+
+// $(document).on("ready", function(){
+            //.ready can be used as well
+            // This one is the most simplier for me in my opinion ^^
+// });
+
+/*
+Another easier way to do it is by just using the 
+$(function(){ 
+
+}); This right here is the "Document Ready" 
+
+
+$(window).on("load", function() {
+   This is the Window Load method
+   This is best to find the dimesions of an image for either Width or Height
+}
+
+A simpler version is
+$(window).load(function(){
+   
+   }
+
+*/
