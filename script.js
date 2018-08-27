@@ -260,7 +260,7 @@ $(window).load(function(){
 
 
 // Tutorial 18 - The Event Object in jQuery
-
+/*
 $(document).ready(function(){
    
    $("*").on("click", function(e){
@@ -279,6 +279,7 @@ $(document).ready(function(){
     */
 
 // Tutorial 19 - Animations in jQuery
+/*
 $(document).ready(function() {
     
 function complete() {
@@ -295,10 +296,36 @@ function complete() {
     });
 });
 
+*/
+
+// Tutorial 20 - Fading Elements In & Out
+
+$(document).ready(function() {
+    
+    $("section > h2").on("click", function() {
+        
+         $(this).animate({"opacity": "0.5"}) // Making it fade
+                    // OR
+                    
+       //  $(this).fadeOut(2000). // Just to make them fade in out once
+                    //fadeIn(500);
+        
+        // To make it fade in and out like a pattern
+        
+        /*
+        $(this).fadeTo(200, 0.2)
+                .fadeTo(200, 0.8)
+                .fadeTo(200, 0.2)
+                .fadeTo(200, 0.8)
+                .fadeTo(200, 0.2)
+                .fadeTo(200, 0.8);
+          */      
+                
+                
+    });
+});
+
 
 
 /*
-
-
-
 */
