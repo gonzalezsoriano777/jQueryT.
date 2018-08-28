@@ -300,11 +300,13 @@ function complete() {
 
 // Tutorial 20 - Fading Elements In & Out
 
+/*
 $(document).ready(function() {
     
     $("section > h2").on("click", function() {
         
          $(this).animate({"opacity": "0.5"}) // Making it fade
+  */
                     // OR
                     
        //  $(this).fadeOut(2000). // Just to make them fade in out once
@@ -322,10 +324,29 @@ $(document).ready(function() {
           */      
                 
                 
+ //   });
+// });
+
+// Tutorial 21 - Hide and Show Elements
+
+ // $(document).ready(function() {
+    
+  //    $("section > h2").on("click", function() {
+       
+      // $(this).hide(1000).show(1000); // Hide and Show the Element
+      
+     // $(this).toggle(1000); // Automatically hides it with the Toggle
+   
+   /*
+   
+    $("img[alt=map]").on("click", function() { // Once pressing the map it will fade both button (when using the toggle attribute)
+        
+    $("section > h2").toggle(1000);   
+        
     });
 });
+*/ 
 
 
 
-/*
-*/
+
