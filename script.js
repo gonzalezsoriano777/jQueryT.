@@ -348,7 +348,7 @@ $(document).ready(function() {
 */ 
 
 // Tutorial 22 - Sliding Elements
-
+/*
 $(document).ready(function() {
     
     $(".slide-button-up").on("click", function() {
@@ -359,7 +359,7 @@ $(document).ready(function() {
         
     });
     
-   
+ /*  
    
     /* $(".slide-button-down").on("click", function() {
        
@@ -368,6 +368,37 @@ $(document).ready(function() {
     });
   }); 
   */
+
+// });
+
+// Tutorial 23 - Fading Animation Example
+
+/*
+$(document).ready(function(){
+   
+   var allQuotes = $("blockquote");
+   var currentQuote = 0;
+   
+   
+   function changeQuote() {
+      
+          
+          $(allQuotes[currentQuote]).fadeOut(200, function(){
+          
+           if(currentQuote == allQuote.length - 1) {
+              currentQuote = 0;
+              
+          } else {
+              currentQuote++;
+          }
+          $(allQuote[currentQuote]).fadeIn(200);
+          
+          
+          });
+          
+         
+     }
+     
+     var quoteTimer = setInterval(changeQuote, 3000);
 });
-
-
+*/
