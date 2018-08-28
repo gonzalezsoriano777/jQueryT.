@@ -422,8 +422,14 @@ $(document).ready(function() {
 
 // Tutorial 25 - Using Plugins
 
+/*
 $(document).ready(function() {
   
   $(".rslides").responsiveSlides();
     
 });
+*/
+
+// Tutorial 26 - What Next?
+
+// Practice and Experiment with each and every Tutorial and just make a website with Sliders, Image Galleries, etc.
