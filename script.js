@@ -402,3 +402,28 @@ $(document).ready(function(){
      var quoteTimer = setInterval(changeQuote, 3000);
 });
 */
+
+// Tutorial 24 - Sliding Animation Example
+
+/*
+$(document).ready(function() {
+   
+   var items = $("#points-of-sale li");
+   
+   items.on("click", function() { // Makes the icons have a dropdown with the wording inside it
+      
+      $(this).find("p").slideToggle(500);
+       
+   });
+    
+});
+
+*/
+
+// Tutorial 25 - Using Plugins
+
+$(document).ready(function() {
+  
+  $(".rslides").responsiveSlides();
+    
+});
