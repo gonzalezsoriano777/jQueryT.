@@ -433,3 +433,4 @@ $(document).ready(function() {
 // Tutorial 26 - What Next?
 
 // Practice and Experiment with each and every Tutorial and just make a website with Sliders, Image Galleries, etc.
+// As well as using different links for my jQuery as well as Ajax to have a better understanding of both
